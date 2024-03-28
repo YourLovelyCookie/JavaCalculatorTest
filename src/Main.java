@@ -15,6 +15,6 @@ public class Main {
             height = Integer.parseInt(args[2]);
         }
 
-        Window win = new Window(title, width, height);
+        CalculatorWindow win = new CalculatorWindow(title, width, height);
     }
 }

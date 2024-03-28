@@ -1,11 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 
-public class Window {
+public class CalculatorWindow {
     String title;
     int width, height;
 
@@ -13,7 +12,7 @@ public class Window {
     GridLayout grid;
     JLabel result;
 
-    public Window(String title, int width, int height) {
+    public CalculatorWindow(String title, int width, int height) {
         this.title = title;
         this.width = width;
         this.height = height;
